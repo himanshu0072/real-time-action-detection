@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Real-time Action Detection</title>
+    <link rel="stylesheet" type="text/css" href="/frontend/style.css" />
+    <link rel="icon" href="/frontend/favicon.ico" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,7 +15,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Real-time Action Detection</a>
         <button
@@ -32,13 +34,102 @@
             <a class="nav-link active" aria-current="page" href="#"
               >Detect Items</a
             >
-            <a class="nav-link" href="#">Dance Mode</a>
-            <a class="nav-link" href="#">Surveillance Mode</a>
+            <a class="nav-link active" href="#">Dance Mode</a>
+            <a class="nav-link active" href="#">Surveillance Mode</a>
             <a class="nav-link disabled">About us</a>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- About Section for the real time action detection -->
+    <div class="container MainContainer">
+      <div class="left">
+        <h2>Welcome to Real Time Action Detection System !</h2>
+        <p>We Catch Reality....</p>
+        <p style="text-align: justify">
+          Real-time action detection is a powerful technology that enables
+          machines to detect and interpret human actions in real-time. By
+          leveraging advanced algorithms and computer vision techniques, this
+          technology can track and recognize various human movements, such as
+          running, jumping, and waving. Real-time action detection has numerous
+          practical applications, ranging from sports analytics to security and
+          medical research. Its potential to revolutionize human-machine
+          interaction and provide critical insights into human behavior is
+          immense.
+        </p>
+        <button type="button" class="btn btn-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-up-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"
+            />
+          </svg>
+          Try to detect Now
+        </button>
+        <p class="text-secondary" style="margin-top: 5%">28 Feb, 2023</p>
+      </div>
+      <div class="right">
+        <img src="/frontend/images/MainImage.jpeg" alt="AI" />
+      </div>
+    </div>
+
+    <!-- About section introduction -->
+    <div class="fluid-container aboutSection">
+      <h2>What is Real-time Action Detection</h2>
+      <p style="text-align: justify">
+        Real-time action detection is a cutting-edge technology that enables
+        websites to automatically detect and classify human actions in real-time
+        video streams. This technology involves analyzing video frames to
+        identify and track human activities as they happen, such as walking,
+        running, or dancing. Real-time action detection allows websites to
+        provide an interactive and engaging experience for their users by
+        detecting their actions and providing relevant responses. Real-time
+        action detection for websites involves deploying complex machine
+        learning algorithms that can analyze and interpret human movements and
+        body language. These algorithms need to be fast and efficient, as
+        websites need to process video streams in real-time and provide results
+        quickly. To achieve this, real-time action detection systems often use
+        powerful hardware such as graphics processing units (GPUs) to accelerate
+        the processing of video data. Real-time action detection for websites
+        has many practical applications, such as in e-commerce, fitness, and
+        gaming. For example, an e-commerce website could use real-time action
+        detection to recommend products based on the user's activity, such as
+        suggesting athletic shoes if the user is running or walking. A fitness
+        website could use real-time action detection to provide personalized
+        training routines based on the user's activity level and goals. A gaming
+        website could use real-time action detection to provide interactive
+        games that respond to the user's actions in real-time. Overall,
+        real-time action detection for websites is a powerful technology that
+        has the potential to revolutionize the way websites interact with their
+        users. By detecting and classifying human actions in real-time, websites
+        can provide personalized and engaging experiences that are tailored to
+        each user's unique needs and interests.
+      </p>
+      <button type="button" class="btn btn-light">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-up-right"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"
+          />
+        </svg>
+        Try to detect Now
+      </button>
+    </div>
 
     <!-- Javascript integrated by bootstrap -->
     <script

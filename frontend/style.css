@@ -1,0 +1,47 @@
+.MainContainer{
+    margin-top: 8%;
+    display: flex;
+    background-color: rgb(225, 214, 214);
+    margin-bottom: 5%;
+}
+.right{
+    margin-top: 5%;
+    width: 60%;
+    margin-right: 5%;
+}
+.left{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.aboutSection{
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(23, 21, 21);
+    color: white;
+}
+@media only screen and (max-width: 1200px) {
+    .MainContainer{
+        padding: 5%;
+        margin-bottom: 5%;
+        display: block;
+    }
+    .right{
+        margin-top: 10%;
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+    }
+    .left{
+        margin-top: 12%;
+        width: 100%;
+    }
+    .left p{
+        margin-right: 5%;
+    }
+  }
